@@ -1,0 +1,4 @@
+server.host: localhost
+server.name: kibana-dev
+server.port: 5601
+elasticsearch.url: http://localhost:9200
