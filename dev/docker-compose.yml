@@ -2,7 +2,15 @@ version: '3'
 services:
   kibana:
     image: jaysong/kibana:5.4.0
+    container_name: kibana-dev-1
+    networks:
+      - esnet
     ports:
       - 5601:5601
     volumes:
       - ./config/kibana.yml:/usr/share/kibana/config/kibana.yml
+
+networks:
+  esnet:
+    external:
+      name: dev_esnet

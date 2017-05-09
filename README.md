@@ -10,10 +10,15 @@ Docker Hub images.
 
 ## How-To:
 
-### Start a service with Docker Compose
+### Start Kibana with Docker Compose
 
-Change directory to `dev`.
+**Assuming the Elasticsearch setup at
+[`jiaxing/elasticsearch-docker`](https://github.com/jiaxing/elasticsearch-docker)**
 
-- To start service, `docker-compose up -d`
-- To stop the service, `docker-compose down`
-- To destroy service and data, `docker-compose down -v`
+- Change directory to `dev`.
+- To start Kibana, `docker-compose up -d`.
+- Check it out at `localhost:5601`.
+- To stop Kibana, `docker-compose down -v`.
+
+## Notes:
+1. [Found orphan containers](https://github.com/docker/compose/issues/3573)
