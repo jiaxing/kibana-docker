@@ -5,8 +5,8 @@ Docker Hub images.
 
 ## Feature:
 
-- Built on top of [`docker.elastic.co/kibana/kibana:5.4.0`](https://github.com/elastic/kibana-docker/tree/5.4).
-- Removed [X-Pack](https://www.elastic.co/guide/en/x-pack/5.4/index.html).
+- Built on top of [`docker.elastic.co/kibana/kibana:6.2.2`](https://github.com/elastic/kibana-docker/tree/6.2).
+- Removed [X-Pack](https://www.elastic.co/guide/en/x-pack/6.2/index.html).
 
 ## How-To:
 

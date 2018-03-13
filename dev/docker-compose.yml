@@ -1,7 +1,7 @@
 version: '3'
 services:
   kibana:
-    image: jaysong/kibana:5.4.0
+    image: jaysong/kibana:6.2.2
     container_name: kibana-dev-1
     networks:
       - esnet
